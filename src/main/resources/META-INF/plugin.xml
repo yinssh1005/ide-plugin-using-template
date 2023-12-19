@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.yinssh1005.idepluginusingtemplate</id>
-    <name>ide-plugin-using-template Template</name>
+    <name>IDE-Webapp-Integration-Sample</name>
     <vendor>yinssh1005</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -10,6 +10,10 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.github.yinssh1005.idepluginusingtemplate.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+    </extensions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow factoryClass="com.github.yinssh1005.idepluginusingtemplate.toolWindow.MyToolWindowFactorySec" id="MyToolWindowXXX"/>
     </extensions>
 
     <applicationListeners>

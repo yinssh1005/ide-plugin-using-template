@@ -22,14 +22,6 @@ class MyToolWindowFactorySec : ToolWindowFactory {
 
     class MyToolWindowSec(tw: ToolWindow) {
         fun getContent() = JBPanel<JBPanel<*>>().apply {
-//            val label = JBLabel(MyBundle.message("randomLabel", "?"))
-//
-//            add(label)
-//            add(JButton(MyBundle.message("shuffle")).apply {
-//                addActionListener {
-//                    label.text = MyBundle.message("randomLabel", service.getRandomNumber())
-//                }
-//            })
 
             val browser = JBCefBrowser()
 
@@ -62,7 +54,7 @@ class MyToolWindowFactorySec : ToolWindowFactory {
                 browser.cefBrowser.url, 0
             )
 
-            this.add(browser.component)
+            add(browser.component)
         }
     }
 

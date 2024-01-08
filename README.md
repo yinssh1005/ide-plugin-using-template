@@ -42,3 +42,5 @@ Plugin based on the [IntelliJ Platform Plugin Template][template].
 
 [template]: https://github.com/JetBrains/intellij-platform-plugin-template
 [docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
+
+<img width="1433" alt="image" src="https://github.com/yinssh1005/IDE-Webapp-Integration-Sample/assets/38479979/8c92ed39-487a-47b1-9b5c-b0d8288cc811">
